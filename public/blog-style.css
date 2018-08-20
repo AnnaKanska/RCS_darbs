@@ -1,0 +1,49 @@
+.photo-title {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.page-title {
+    position: absolute;
+    top: 50%;
+    bottom: 50%;
+}
+
+
+
+.container {
+    position: relative; 
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.container .content {
+    position: absolute; 
+    top: 20%; 
+    color: #C7E09F; 
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    Font-family: 'Lobster', sans-serif;
+}
+h1 {
+    font-size: 140px;
+    text-shadow: 2px 1px black;
+}
+h2 {
+text-align: right;
+margin: 25px 0;
+padding-right: 50px;
+font-family: 'Limelight', cursive;
+color: white;
+background-color: #C7E09F;
+}
+.blog-text {
+     font-family: 'Quicksand', sans-serif;
+     padding: 20px 40px;
+     margin: 0 60px;
+}
+#blogs {
+    margin-bottom: 40px;
+}

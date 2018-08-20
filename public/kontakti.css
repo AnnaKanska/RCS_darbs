@@ -1,0 +1,54 @@
+
+.container {
+  background: #FFFFFF;
+  width: 900px;
+  height: 650px;
+  margin: 5% auto;
+  position: relative;
+}
+.container .map {
+  width: 45%;
+  float: left;
+}
+.container .contact-form {
+  width: 53%;
+  margin-left: 2%;
+  float: left;
+}
+.container .contact-form .title {
+  font-size: 2.5em;
+  font-family: 'Lobster', cursive;
+  font-weight: 700;
+  color: black;
+  margin: 5% 25%;
+}
+
+.container .contact-form input,
+.container .contact-form textarea {
+  width: 330px;
+  padding: 3%;
+  margin: 2% 8%;
+  color: grey;
+  border: 1px solid #C7E09F;
+  border-radius: 6px;
+}
+.container .contact-form input::placeholder,
+.container .contact-form textarea::placeholder {
+  color: grey;
+}
+.container .contact-form .btn-send {
+    Font-family: 'Quicksand', sans-serif;
+    background-color: white;
+    color: grey;
+    border-radius: 15px;
+    border: 2px solid grey;
+    width: 180px;
+    height: 60px;
+    font-size: 23px;
+    margin: auto;
+    padding: 3%;
+    margin: 2% 8%;
+}
+.container .contact-form .btn-send:hover {
+    background-color: #FFFF99;
+}
