@@ -3,7 +3,7 @@
 <head>
 
     <meta charset="utf-8" />
-    <title>Gala Projekts</title>
+    <title>RCS Gala Projekts</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" type="text/css" media="screen" href="css/header_footer.css" />
     <link href="https://fonts.googleapis.com/css?family=Acme|Dancing+Script|Lobster|Limelight|Quicksand:700&amp;subset=latin-ext" rel="stylesheet">
@@ -12,18 +12,18 @@
 <header class="header">
         <nav>
             <div class="nosaukums">
-                <a href="index.php">Nosaukums</a>
+                <a href="index.php">Travel Stories</a>
             </div>
 
             <ul class="nav_items">
                 <li  class="nav_item">
-                    <a href="/">Menu</a>
+                    <a href="/">About</a>
                 </li>
                 <li  class="nav_item">
-                        <a href="/" id="otr">Menu2</a>
+                        <a href="/" id="otr">Stories</a>
                     </li>
                  <li  class="nav_item">
-                        <a href="contact" id="tre">Kontakti</a>
+                        <a href="contact" id="tre">Contacts</a>
                      </li>
             </ul>
         </nav>
