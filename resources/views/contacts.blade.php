@@ -7,8 +7,8 @@
         <!--bootstrap-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
-    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
-    <link rel="stylesheet" type="text/css" media="screen" href="kontakti.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/kontakti.css" />
     <script src="proj.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Acme|Dancing+Script|Lobster|Limelight|Quicksand:700&amp;subset=latin-ext" rel="stylesheet">
         <!--bootsnip-->
@@ -30,25 +30,7 @@
 
 
 <body>
-    <header class="header">
-        <nav>
-            <div class="nosaukums">
-                <a href="index.html">Nosaukums</a>
-            </div>
-
-            <ul class="nav_items"> <!-- css float right-->
-                <li  class="nav_item">
-                    <a href="/">Menu</a>
-                </li>
-                <li  class="nav_item">
-                        <a href="/" id="otr">Menu2</a>
-                    </li>
-                 <li  class="nav_item">
-                        <a href="kontakti.html" id="tre">Kontakti</a>
-                     </li>
-            </ul>
-        </nav>
-    </header>
+<?php include 'header.php';?>
 <!--bootsnip-->
 <div class="container">
         <div class="map">
@@ -68,9 +50,8 @@
 
 <!--     -->
     <button onclick="topFunction()" id="myBtn" title="Go to top">&#8679</button>
-    <footer>
-            <p class="copyright">Copyright &copy; <?php echo date("Y");?> </p>
-            <p class="developed">Developed by Anna</p>
-         </footer>   
+
+<?php include 'footer.php'; ?>
+
 </body>
 </html>

@@ -7,32 +7,14 @@
         <!--bootstrap-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
-    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/style.css" />
     
     <link href="https://fonts.googleapis.com/css?family=Acme|Dancing+Script|Lobster|Limelight|Quicksand:700&amp;subset=latin-ext" rel="stylesheet">
 
    
 </head>
 <body>
-    <header class="header">
-        <nav>
-            <div class="nosaukums">
-                <a href="index.html">Nosaukums</a>
-            </div>
-
-            <ul class="nav_items">
-                <li  class="nav_item">
-                    <a href="/">Menu</a>
-                </li>
-                <li  class="nav_item">
-                        <a href="/" id="otr">Menu2</a>
-                    </li>
-                 <li  class="nav_item">
-                        <a href="contact" id="tre">Kontakti</a>
-                     </li>
-            </ul>
-        </nav>
-    </header>
+<?php include 'header.php';?>
 
     <!--bootstrap daļa-->
     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
@@ -43,13 +25,13 @@
             </ol>
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img class="d-block w-100" src="palm.jpg" alt="First slide">
+                <img class="d-block w-100" src="css/palm.jpg" alt="First slide">
               </div>
               <div class="carousel-item">
-                <img class="d-block w-100" src="palm2.jpg" alt="Second slide">
+                <img class="d-block w-100" src="css/palm2.jpg" alt="Second slide">
               </div>
               <div class="carousel-item">
-                <img class="d-block w-100" src="palm3.jpg" alt="Third slide">
+                <img class="d-block w-100" src="css/palm3.jpg" alt="Third slide">
               </div>
             </div>
             <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -70,7 +52,7 @@
         <div class="card-body">
           <h5 class="card-title">Piha Valley walk</h5>
           <p class="card-text">15.08.2018</p>
-          <a href="blog.html" class="btn btn-primary btn1">Lasīt</a>
+          <a href="blog.php" class="btn btn-primary btn1">Lasīt</a>
         </div>
       </div>
 <div class="card w-25 text-center col-sm-3">
@@ -131,10 +113,7 @@
 
 
 
-    <footer>
-        <p class="copyright">Copyright &copy; <?php echo date("Y");?> </p>
-        <p class="developed">Developed by Anna</p>
-     </footer>   
+<?php include 'footer.php'; ?>
      <!--bootstrapam-->
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>

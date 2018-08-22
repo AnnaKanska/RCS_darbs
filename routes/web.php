@@ -20,6 +20,13 @@ Route::get('/contact',function(){
     return view('/contacts');
 });
 
+Route::get('/blog',function(){
+    return view('/blog');
+});
+
+
+
+
 // Route::get('/', function () {
 
 //     $todoitem = \App\ToDoItem::get();
