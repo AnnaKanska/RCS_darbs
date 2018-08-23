@@ -16,15 +16,18 @@
             </div>
 
             <ul class="nav_items">
-                <li  class="nav_item">
-                    <a href="/">About</a>
-                </li>
+            <li  class="nav_item">
+                        <a href="contact" id="tre">Contact</a>
+                     </li>
+
                 <li  class="nav_item">
                         <a href="/" id="otr">Stories</a>
                     </li>
-                 <li  class="nav_item">
-                        <a href="contact" id="tre">Contacts</a>
-                     </li>
+
+                <li  class="nav_item">
+                    <a href="/">About</a>
+                </li>
+                
             </ul>
         </nav>
     </header>

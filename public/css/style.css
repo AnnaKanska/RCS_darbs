@@ -5,9 +5,8 @@ body {
 }
 
 
-
 #carouselExampleIndicators {
-    width: 80%;
+    width: 100%;
     margin: auto;
 }
 
@@ -36,7 +35,7 @@ body {
 }
 
 .card .btn:hover {
-   background-image: url(css/leavessmall.jpg); 
+    background-image: url(leavessmall.jpg); 
    color: #FFCCCC;
    border: solid #FFCCCC;
 }
