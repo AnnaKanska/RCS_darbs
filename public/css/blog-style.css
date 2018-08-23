@@ -9,6 +9,8 @@
     bottom: 50%;
 }
 
+
+
 .container {
     position: relative; 
     max-width: 100%;
@@ -19,15 +21,17 @@
 .container .content {
     position: absolute; 
     top: 20%; 
-    color: white; 
+    color: #C7E09F; 
     width: 100%;
     padding: 20px;
     text-align: center;
     Font-family: 'Lobster', sans-serif;
 }
-
-
-.day {
+h1 {
+    font-size: 140px;
+    text-shadow: 2px 1px black;
+}
+h2 {
 text-align: right;
 margin: 25px 0;
 padding-right: 50px;

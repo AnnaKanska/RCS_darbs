@@ -19,6 +19,7 @@ body {
 .card .card-header {
     font-weight: bold;
     font-size: 25px;
+    background-color: red;
 }
 
 .card .card-title {
@@ -26,7 +27,7 @@ body {
 }
 
 .card .btn {
-    Font-family: 'Quicksand', sans-serif;
+    font-family: 'Quicksand', sans-serif;
     padding: 10px 60px;
     background-color: white;
     color: grey;
@@ -42,9 +43,8 @@ body {
 .card {
 padding: 0;
 }
-.card-header {
-    background-color: #C7E09F;
-}
+
+
 
 #myBtn {
     opacity: 0.7;

@@ -11,20 +11,28 @@
 |
 */
 
-Route::get('/',function(){
-    return view('/welcome');
+Route::get('/',function(){ //links (/laravel/blog/public/)
+    return view('welcome'); //bleida nosaukums
 });
 
 
-Route::get('/contact',function(){
-    return view('/contacts');
+Route::get('/contact',function(){ //links (/laravel/blog/public/contact)
+    return view('contacts');
 });
 
-Route::get('/blog',function(){
-    return view('/blog');
+Route::get('/blog',function(){ //links (a href="/laravel/blog/public/blog")
+    return view('blog');
 });
 
+Route::get('/blogs',function(){ //links (a href="/laravel/blog/public/blogs")
+    return view('blog');
+});
 
+Route::get('/blogs/{id}',function($id){ //links (a href="/laravel/blog/public/blogs/1, <- u.t.t.")
+    // $todoitem = \App\ToDoItem::find($id);  <- vienīgi šim tev vajag visus blogus datubāzē
+    
+    return view('blog');
+});
 
 
 // Route::get('/', function () {
