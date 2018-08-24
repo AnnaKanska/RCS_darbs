@@ -1,4 +1,21 @@
 @extends ('layout')
+
+<?php
+
+//var_dump($_POST);
+
+$connection = mysqli_connect("localhost","root","","Contacts_form");
+
+if (!$connection){
+    die("Database connerction failed");
+}
+
+//$sql = "SELECT * FROM `contactus`";
+//$sql = "INSERT INTO `contactus` (`Name`, `Email`, `Phone`, `Message`) VALUES (\'lala\', \'lala@gmail.com\', \'26117794\', \'lalalalalallalaa\')";
+//mysqli_query($connection, $sql);
+
+?>
+
 <!--bootsnip-->
 
 @section('css')

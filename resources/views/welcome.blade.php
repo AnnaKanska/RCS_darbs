@@ -1,5 +1,6 @@
 @extends('layout')
 
+
 @section('slider')
   <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
     <ol class="carousel-indicators">
@@ -44,7 +45,7 @@
         <div class="card-body">
           <h5 class="card-title">Piha Valley walk</h5>
           <p class="card-text">15.08.2018</p>
-          <a href="blog.php" class="btn btn-primary btn1">Read more</a>
+          <a href="/laravel/blog/public/blog" class="btn btn-primary btn1">Read more</a>
         </div>
       </div>
 <div class="card w-25 text-center col-sm-3">
