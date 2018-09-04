@@ -1,26 +1,13 @@
 @extends ('layout')
 
-<?php
 
-//var_dump($_POST);
-
-$connection = mysqli_connect("localhost","root","","Contacts_form");
-
-if (!$connection){
-    die("Database connerction failed");
-}
-
-//$sql = "SELECT * FROM `contactus`";
-//$sql = "INSERT INTO `contactus` (`Name`, `Email`, `Phone`, `Message`) VALUES (\'lala\', \'lala@gmail.com\', \'26117794\', \'lalalalalallalaa\')";
-//mysqli_query($connection, $sql);
-
-?>
 
 <!--bootsnip-->
 
 @section('css')
     <link rel="stylesheet" type="text/css" media="screen" href="css/kontakti.css" />
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <script src="js/showmsg.js"></script>
 @endsection
 
 @section('content')
@@ -31,13 +18,29 @@ if (!$connection){
         </div>
         <div class="contact-form">
             <h1 class="title">Contact Us</h1>
-            <form action="">
+            <div id="successMsg" class="alert alert-success" style="display:none">
+                This is a success alert—check it out!
+            </div>
+            <form method="post" action="contacts.php">
                 <input type="text" name="name" placeholder="Your Name" />
                 <input type="email" name="e-mail" placeholder="Your E-mail Adress" />
                 <input type="tel" name="phone" placeholder="Your Phone Number"/>
                 <textarea name="text" id="" rows="8" placeholder="Your Message"></textarea>
-                <button class="btn-send">Submit</button>
+                <input type="submit" class="btn-send" value="submit"></button>
             </form>
         </div>
     </div>
+    <script>
+        let showmsg=false;
+
+        if (localStorage.getItem("msg")){
+            let showmsg=true;
+            let msg=localStorage.getItem("msg");
+            document.getElementById("successMsg").innerHTML = localStorage.getItem("msg");
+            document.getElementById("successMsg").style.display='block';
+            localStorage.removeItem("msg");
+        }
+
+    </script>
+
 @endsection

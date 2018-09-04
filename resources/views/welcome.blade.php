@@ -40,7 +40,7 @@
 <div class="row justify-content-center">
 <div class="card w-25 text-center col-sm-3">
         <div class="card-header">
-          New Zaland
+          New Zealand
         </div>
         <div class="card-body">
           <h5 class="card-title">Piha Valley walk</h5>
